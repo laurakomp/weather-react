@@ -1,0 +1,70 @@
+h1 {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
+ul {
+  margin: 15px 0px 15px 0px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 19px;
+  padding: 0px;
+  margin: 0px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 180px;
+}
+
+.weather-image {
+  margin-top: -10px;
+}
+
+.weather-temperature {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather-temperature strong {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -24px;
+  text-decoration: none;
+}
+.wind-units {
+  text-transform: lowercase;
+}
+.description {
+  margin: 0px 30px 0px 30px;
+}
+
+hr.line {
+  width: 65px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
